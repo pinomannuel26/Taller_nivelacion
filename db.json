@@ -1,0 +1,19 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Manzana ",
+      "price": "1.200"
+    },
+    {
+      "id": 2,
+      "name": "maracuya ",
+      "price": "1.800"
+    },
+    {
+      "id": 3,
+      "name": "Guaramas",
+      "price": 5.99
+    }
+  ]
+}

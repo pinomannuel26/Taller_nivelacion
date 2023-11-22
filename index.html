@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Taller de nivelación</title>
+</head>
+<body>
+    <header>
+        <!-- <h2>MÓDULO SOBRE LÓGICA, LÓGICA DE PROGRAMACIÓN Y PROGRAMACIÓN CON JAVASCRIPT</h2>
+        <h3>Presentado por: Mannuel Fernando Granoble Pino</h3> -->
+        <div class='home__texto'>
+            <h1 class='home__texto--titulo'> Taller de nivelación</h1>
+            <p class='home__texto--descripcion'>Presentado por: Mannuel Fernando Granoble Pino</p>
+        </div>
+        <img class='home__img' src="https://res.cloudinary.com/dbktnqag9/image/upload/v1695853109/EjercicioRutas/345291480_137310145929001_1938513342240265591_n_b01ght.jpg" alt="ImaHome" />
+        
+    </header>
+    <main>
+        <div class="containerE1">
+        
+            <div class="containerTitlle">
+                <h2>MÓDULO 2 SOBRE HTML, CSS Y RESPONSIVE DESIGN</h2>
+                <p>Resolución del los ejercicios prácticos del modulo 2</p>
+            </div>
+            
+
+            <div class='ListProducts'>
+                <h1 class='ListProducts--titulo'>Sitios Turisticos</h1>
+                <div class="imgLugares">
+                    <div class='ListProducts__container'>
+                        <div class ='ListProducts__container__imgs'>
+                        <img class='ListProducts__container__imgs--img' src='https://res.cloudinary.com/dbktnqag9/image/upload/v1695855065/EjercicioRutas/270297_223301061034811_100000647559889_722841_7801260_n_xtgkqm.jpg' />
+                        <p class='ListProducts__container__imgs--tittle'>Casona de Leticia</p>
+                        </div>
+                    </div>
+                    <div class='ListProducts__container'>
+                        <div class ='ListProducts__container__imgs'>
+                        <img class='ListProducts__container__imgs--img' src='https://res.cloudinary.com/dbktnqag9/image/upload/v1695855407/EjercicioRutas/4_oufeuf.jpg' />
+                        <p class='ListProducts__container__imgs--tittle'>Parroquia San Lorenzo</p>
+                        </div>
+                    </div>
+                    <div class='ListProducts__container'>
+                        <div class ='ListProducts__container__imgs'>
+                        <img class='ListProducts__container__imgs--img' src='https://res.cloudinary.com/dbktnqag9/image/upload/v1695855167/EjercicioRutas/274362508_5052466904784845_8420418851433656634_n_lq6qeq.jpg' />
+                        <p class='ListProducts__container__imgs--tittle'>Paramo de las Papas</p>
+                        </div>
+                    </div>
+                    <div class='ListProducts__container'>
+                        <div class ='ListProducts__container__imgs'>
+                        <img class='ListProducts__container__imgs--img' src='https://res.cloudinary.com/dbktnqag9/image/upload/v1695855058/EjercicioRutas/248657_217043778327206_100000647559889_692843_1639543_n_pwcv5h.jpg' />
+                        <p class='ListProducts__container__imgs--tittle'>Colegio Viejo</p>
+                        </div>
+                    </div>
+                    <div class='ListProducts__container'>
+                        <div class ='ListProducts__container__imgs'>
+                        <img class='ListProducts__container__imgs--img' src='https://res.cloudinary.com/dbktnqag9/image/upload/v1695855053/EjercicioRutas/52323651_2348261748531215_3565159078604832768_o_y8oqtw.jpg' />
+                        <p class='ListProducts__container__imgs--tittle'>Normal Los Andes</p>
+                        </div>
+                    </div>
+                    <div class='ListProducts__container'>
+                        <div class ='ListProducts__container__imgs'>
+                        <img class='ListProducts__container__imgs--img' src='https://res.cloudinary.com/dbktnqag9/image/upload/v1695855230/EjercicioRutas/273101317_4985435441487992_8930095332849319379_n_dve2vo.jpg' />
+                        <p class='ListProducts__container__imgs--tittle'>Laguna de Qusiyaiko</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="cambio">
+                    <button id="cambiarColor">Cambiar color de fondo</button>
+                </div>
+                
+              </div>
+
+            
+        </div>
+
+        <div class="containerE1">
+            <div class="containerTitlle">
+                <h2>MÓDULO 3 SOBRE MÓDULO SOBRE DOM E INTERACCIÓN CON EL DOM</h2>
+                <p>Ejercicio #2 </p>
+            </div>
+            
+            <ul class="ulLista" >
+                <li class="liLista">Elemento 1</li>
+                <li class="liLista">Elemento 2</li>
+                <li class="liLista">Elemento 3</li>
+                <li class="liLista">Elemento 4</li>
+                <li class="liLista">Elemento 5</li>
+            </ul>
+            <div class="containerTitlle">
+                <p>Ejercicio #3 </p>
+            </div>
+
+            <div class="containerForm">
+                <form id="miFormulario">
+                  <label for="name">Nombre:</label>
+                  <input type="text" id="name" name="name" required placeholder="Por favor ingresa tu nombre">
+                  <button type="button" onclick="validarNombre()">Enviar</button>
+                </form>
+            </div>
+
+            <div class="containerTitlle">
+                <h2>MÓDULO 4 SOBRE MÓDULO SOBRE DOM E INTERACCIÓN CON EL DOM</h2>
+                <p>Ejercicio #1</p>
+            </div>
+            <div class="containerForm">
+                <form id="miFormulario2">
+                  <label for="name2">Nombre:</label>
+                  <input type="text" id="name2" name="name2" required placeholder="Por favor ingresa tu nombre">
+                  <label for="edad">Edad:</label>
+                  <input type="text" id="edad" name="edad" required placeholder="Por favor ingresa tu edad">
+                  <button type="button" onclick="envioDatos()">Enviar</button>
+                </form>
+            </div>
+            <div class="containerTitlle">
+                <p>Ejercicio #2 y #3</p>
+            </div>
+            <h1>CRUD de Productos</h1>
+            <div id="product-list"></div>
+
+            <!-- Agregamos el formulario de edición -->
+                <div id="edit-form" style="display: none;">
+                    <h2>Editar Producto</h2>
+                    <div class="inputs">
+                        <input type="text" id="edit-id" hidden> <!--hidden es para escoder, ocultar el campo-->
+                        <input type="text" id="edit-name" placeholder="Nombre">
+                        <input type="number" id="edit-price" placeholder="Precio">
+                    </div>
+                    <button onclick="saveProductForm()">Guardar</button>
+                    <button onclick="cancelEdit()">Cancelar</button>
+                </div>
+
+            <div id="create-form">
+                <h2>Crear Producto</h2>
+                <div class="inputs">
+                    <input type="text" id="create-name" placeholder="Nombre">
+                    <input type="number" id="create-price" placeholder="Precio">
+                </div>
+                <button onclick="createProductForm()">Crear</button>
+            </div>
+
+            <p class="footer">¡Gracias por visitarnos vuelve pronto!</p>
+        </div>
+    </main>
+    <script src="services/api.js" type="module"></script>
+    <script src="script.js" type="module"></script>
+    <script src="modulo1.js" ></script>
+</body>
+</html>
+
+
