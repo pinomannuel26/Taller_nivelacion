@@ -2,7 +2,7 @@ import axios from 'https://cdn.jsdelivr.net/npm/axios@1.3.5/+esm';
 /*Insertar productos metodo post */
 export async function createProduct(product){
     try{
-        const response = await axios.post('http://localhost:3000/products/', product);
+        const response = await axios.post('https://tallerminback.onrender.com/products/', product);
         console.log('response create', response.data);
         return response
     }catch (error){
@@ -14,7 +14,7 @@ export async function createProduct(product){
 /**Listar productos,  metodo get */
 export async function fetchProducts(){
     try{
-        const response = await axios.get('http://localhost:3000/products/');
+        const response = await axios.get('https://tallerminback.onrender.com/products/');
         return response.data;
         
         
@@ -27,7 +27,7 @@ export async function fetchProducts(){
 export async function deleteProduct(productId)
 {
     try{
-        await axios.delete(`http://localhost:3000/products/${productId}`);
+        await axios.delete(`https://tallerminback.onrender.com/products/${productId}`);
         return true;
     }catch (error){
         console.error(`Error deleting product: `,error);
@@ -39,7 +39,7 @@ export async function deleteProduct(productId)
 export async function saveProduct (product)
 {
     try{
-        const response = await axios.put(`http://localhost:3000/products/${product.id}`,{
+        const response = await axios.put(`https://tallerminback.onrender.com/products/${product.id}`,{
             ...product
         });
         return response;
